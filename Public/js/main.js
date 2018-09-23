@@ -1,0 +1,3 @@
+/**
+ * Sample module JavaScript file.
+ */

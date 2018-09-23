@@ -1,0 +1,37 @@
+[
+    {
+        "name": "rivsen/hello-world",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Rivsen/hello-world.git",
+            "reference": "6543d715e24c771a77f073ee08185e6dd657fd0a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Rivsen/hello-world/zipball/6543d715e24c771a77f073ee08185e6dd657fd0a",
+            "reference": "6543d715e24c771a77f073ee08185e6dd657fd0a",
+            "shasum": ""
+        },
+        "time": "2015-03-14T10:26:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Rivsen\\Demo\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rivsen Tan",
+                "email": "rivsen1003@gmail.com"
+            }
+        ],
+        "description": "this is a hello world repo for composer."
+    }
+]

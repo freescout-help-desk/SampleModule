@@ -1,9 +1,13 @@
-@extends('samplemodule::layouts.master')
+@extends('layouts.app')
 
 @section('content')
-    <h1>Hello World</h1>
+    <h1>{{ __('Hello World') }}</h1>
 
     <p>
-        This view is loaded from module: {!! config('samplemodule.name') !!}
+        {{ __('This view is loaded from module') }}
+    </p>
+
+    <p>
+        {{ __('This is text from the third party composer package: :text', ['text' => (new \Rivsen\Demo\Hello())->getName()]) }}
     </p>
 @stop

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'SampleModule'
+    'dashboard_text' => __('This text is displayed by SampleModule')
 ];

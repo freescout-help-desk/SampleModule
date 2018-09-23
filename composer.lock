@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f70f9a05e8ce873f4409ac8f585f76a0",
+    "packages": [
+        {
+            "name": "rivsen/hello-world",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rivsen/hello-world.git",
+                "reference": "6543d715e24c771a77f073ee08185e6dd657fd0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rivsen/hello-world/zipball/6543d715e24c771a77f073ee08185e6dd657fd0a",
+                "reference": "6543d715e24c771a77f073ee08185e6dd657fd0a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rivsen\\Demo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rivsen Tan",
+                    "email": "rivsen1003@gmail.com"
+                }
+            ],
+            "description": "this is a hello world repo for composer.",
+            "time": "2015-03-14T10:26:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
