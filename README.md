@@ -1,4 +1,4 @@
-# SampleModule
+# Sample FreeScout Module
 
 ![FreeScout](https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/banner.png)
 
