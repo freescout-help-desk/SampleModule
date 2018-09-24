@@ -1,0 +1,2 @@
+# SampleModule
+Sample FreeScout module
