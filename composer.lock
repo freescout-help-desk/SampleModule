@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f70f9a05e8ce873f4409ac8f585f76a0",
+    "content-hash": "42cfe2e25f327dbe3625f6455536e905",
     "packages": [
         {
             "name": "rivsen/hello-world",

@@ -20,6 +20,9 @@
     "require": {
         "rivsen/hello-world": "0.1.0"
     },
+    "replace": {
+        "laravel/framework": "*"
+    },
     "autoload": {
         "psr-4": {
             "Modules\\SampleModule\\": ""
