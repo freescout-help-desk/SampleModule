@@ -30,7 +30,7 @@ class SampleModuleServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
 
         // Sample filter
-        \Eventy::addFilter('before_dashboard', function($value) {
+        \Eventy::addFilter('dashboard.before', function($value) {
             return $value.'<p>'.\Module::getOption(SAMPLE_MODULE, 'dashboard_text').'</p>';
         }, 20, 1);
 
